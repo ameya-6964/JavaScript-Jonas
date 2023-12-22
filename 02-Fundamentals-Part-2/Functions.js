@@ -1,4 +1,4 @@
-/* "use strict";
+"use strict";
 
 function logger() {
   console.log("I AM LOGGER");
@@ -11,7 +11,6 @@ function loggerWithName(userName) {
 }
 
 loggerWithName(`Ameya`);
- */
 
 function fruitsProcessor(apples, oranges) {
   const juice = `Juice With ${apples} apples and ${oranges} oranges `;
