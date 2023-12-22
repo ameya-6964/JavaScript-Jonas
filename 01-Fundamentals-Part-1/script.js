@@ -1,1 +1,3 @@
-console.log("Hello World");
+function greet() {
+  alert("Hello, External JavaScript!");
+}
