@@ -37,3 +37,6 @@ console.log(typeof null); // ? object
 
 javascriptIsFun = "Ameya";
 console.log(`typeOf javascriptIsFun Variable ${typeof javascriptIsFun}`);
+
+//! We Can Declare Variable Without let,const and var But You Should Not Do IT
+middleName = "Belvalkar";
