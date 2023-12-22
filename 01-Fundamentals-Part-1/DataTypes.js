@@ -20,4 +20,20 @@ let lastName;
 let salary = null;
 
 //! BigInt => Very Big Integers
-let bigNumber = new BigInt(1212121212121212);
+let bigNumber = 1212121212121212;
+
+/* PRACTICE */
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+console.log(`typeOf javascriptIsFun Variable ${typeof javascriptIsFun}`);
+
+console.log(typeof 12); //? number
+console.log(typeof `12`); // ? string
+console.log(typeof undefined); // ? undefine
+console.log(typeof null); // ? object
+
+//! Dynamic Typing
+
+javascriptIsFun = "Ameya";
+console.log(`typeOf javascriptIsFun Variable ${typeof javascriptIsFun}`);
