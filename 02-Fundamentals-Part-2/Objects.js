@@ -24,6 +24,10 @@ const ameyaObject = {
 console.log("Using . Operator", ameyaObject.firstName);
 console.log("Using . Operator", ameyaObject.age);
 
+//! Adding key:values to Object Using [] Operator
+ameyaObject.location = "Airoli";
+console.log(ameyaObject);
+
 //? [] "square Bracket Notation"
 
 console.log("Using [] Notaion", ameyaObject["firstName"]);
