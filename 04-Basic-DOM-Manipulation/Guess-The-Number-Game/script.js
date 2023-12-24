@@ -20,13 +20,18 @@ button.addEventListener('click', function (e) {
   e.preventDefault();
   const guess = Number(document.querySelector('.guess').value);
 
+  //! When There Is No Guess
   if (!guess) {
     finalMessage.textContent = '⛔ No Number';
-  } else if (guess === secretNumber) {
+  }
+  //! When Player Wins
+  else if (guess === secretNumber) {
     finalMessage.textContent = '🥳 Correct Number';
     score += 5;
     displayedScore.textContent = score;
-  } else if (guess > secretNumber) {
+  }
+  //! When Guess Is Bigger Than Secret Number
+  else if (guess > secretNumber) {
     if (score > 1) {
       finalMessage.textContent = 'Too High 📈';
       score--;
@@ -35,7 +40,9 @@ button.addEventListener('click', function (e) {
       finalMessage.textContent = 'You Lost The Game';
       displayedScore.textContent = 0;
     }
-  } else if (guess < secretNumber) {
+  }
+  //! When Guess Is Smaller Than Secret Number
+  else if (guess < secretNumber) {
     if (score > 1) {
       finalMessage.textContent = 'Too Low 📉';
       score--;
