@@ -13,7 +13,7 @@ greet("Hello")("Wierd Looking Function");
 
 */
 
-//! Arroy Syntax
+// TODO => Create Arrow Function Syntax For Function Returning Another Function
 const greet = (greeting) => {
   return (firstName) => {
     console.log(`${greeting} ${firstName}`);
