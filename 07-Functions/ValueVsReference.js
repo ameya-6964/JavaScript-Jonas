@@ -22,3 +22,16 @@ console.log(flight);
 
 //! ameya object value Changes Because its object and while Passing Objects We Share Referance Of Object Stored In Memory
 console.log(ameya);
+
+//! WARNING This Is What Happens When You Mutate Object In Functions
+
+const newPassport = function (person) {
+  person.passport = Math.trunc(Math.random() * 100000);
+};
+
+newPassport(ameya);
+console.log(ameya);
+// { firstName: 'Mr. Ameya', passport: 60084
+// }
+
+checkIn(flight, ameya);
