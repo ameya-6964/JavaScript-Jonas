@@ -74,3 +74,17 @@ const currencies = new Map([
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 /////////////////////////////////////////////////
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+
+// Elements From index 2 to last index
+console.log(arr.slice(2));
+
+// Elements From index 2 to 4th index - 1
+console.log(arr.slice(2, 4));
+
+// Will Start Reverse Order
+console.log(arr.slice(-2));
+
+// Will Get Last Element
+console.log(arr.slice(-1));
